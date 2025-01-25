@@ -1,0 +1,5 @@
+/* bugSolution.css */
+.container {
+  width: calc((50% - 20px) + 10%); /* Using parentheses to clarify precedence */
+}
+/*This ensures that the subtraction is performed before the addition, resulting in the expected outcome.*/
